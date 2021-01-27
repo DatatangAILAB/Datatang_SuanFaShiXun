@@ -1,0 +1,340 @@
+[2020-12-03 17:34:18]: bilstm_crf test_predict.py[line:20] INFO  seed is 2018
+[2020-12-03 17:34:18]: bilstm_crf test_predict.py[line:27] INFO  starting load test data from disk
+[2020-12-03 17:35:50]: bilstm_crf test_predict.py[line:20] INFO  seed is 2018
+[2020-12-03 17:35:50]: bilstm_crf test_predict.py[line:27] INFO  starting load test data from disk
+[2020-12-03 17:36:36]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 17:36:36]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 17:36:36]: bilstm_crf data_transformer.py[line:94] INFO  Building word vocab
+[2020-12-03 17:37:02]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 17:37:02]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 17:37:02]: bilstm_crf data_transformer.py[line:94] INFO  Building word vocab
+[2020-12-03 17:37:03]: bilstm_crf data_transformer.py[line:110] INFO  vocab_size is 5220
+[2020-12-03 17:37:03]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 17:37:43]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 17:37:43]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 17:37:43]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 17:37:46]: bilstm_crf data_transformer.py[line:74] INFO  train val split
+[2020-12-03 17:37:50]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 17:37:50]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 17:38:41]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 17:38:41]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 17:38:41]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 17:38:41]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 17:38:41]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 17:38:42]: bilstm_crf data_transformer.py[line:208] INFO  Total 20890 word vectors.
+[2020-12-03 17:38:47]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-03 18:48:39]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 18:48:39]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 18:48:39]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 18:48:39]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 18:48:39]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 18:48:40]: bilstm_crf data_transformer.py[line:208] INFO  Total 20890 word vectors.
+[2020-12-03 18:48:45]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-03 18:49:47]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 18:49:47]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 18:49:47]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 18:49:47]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 18:49:47]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 18:49:49]: bilstm_crf data_transformer.py[line:208] INFO  Total 20890 word vectors.
+[2020-12-03 18:49:54]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-03 18:51:15]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 18:51:15]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 18:51:15]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 18:51:15]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 18:51:15]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 18:51:16]: bilstm_crf data_transformer.py[line:208] INFO  Total 20890 word vectors.
+[2020-12-03 18:51:21]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-03 18:51:58]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 18:51:58]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 18:51:58]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 18:51:58]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 18:51:58]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 18:52:00]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-03 18:52:15]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 18:52:15]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 18:52:15]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 18:52:15]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 18:52:15]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 18:52:16]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-03 18:52:21]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-03 18:52:21]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-03 18:52:21]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-03 18:52:21]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.89061M
+[2020-12-03 18:52:21]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5220, 300)
+    (dropout): Dropout(p=0, inplace=False)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=14, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-03 19:00:10]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 1 - loss: 16.9345 acc: 0.6168 - f1: 0.2487 val_loss: 10.3063 - val_acc: 0.7488 - val_f1: 0.3390
+[2020-12-03 19:00:10]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 1: val_loss improved from inf to 10.30635
+[2020-12-03 19:00:42]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 19:00:42]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 19:00:42]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 19:00:42]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 19:00:42]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 19:00:43]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-03 19:00:48]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-03 19:00:48]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-03 19:00:48]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-03 19:00:48]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.89061M
+[2020-12-03 19:00:48]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5220, 300)
+    (dropout): Dropout(p=0, inplace=False)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=14, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-03 19:08:38]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 1 - loss: 16.9345 acc: 0.6168 - f1: 0.2487 val_loss: 10.3063 - val_acc: 0.7488 - val_f1: 0.3390
+[2020-12-03 19:08:38]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 1: val_loss improved from inf to 10.30635
+[2020-12-03 19:16:29]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 2 - loss: 9.4863 acc: 0.7607 - f1: 0.3496 val_loss: 7.9791 - val_acc: 0.7795 - val_f1: 0.3664
+[2020-12-03 19:16:29]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 2: val_loss improved from 10.30635 to 7.97907
+[2020-12-03 19:24:17]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 3 - loss: 7.7236 acc: 0.7830 - f1: 0.3765 val_loss: 6.8667 - val_acc: 0.7906 - val_f1: 0.3828
+[2020-12-03 19:24:18]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 3: val_loss improved from 7.97907 to 6.86674
+[2020-12-03 19:32:05]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 4 - loss: 6.7409 acc: 0.7928 - f1: 0.3935 val_loss: 6.1589 - val_acc: 0.7977 - val_f1: 0.3932
+[2020-12-03 19:32:06]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 4: val_loss improved from 6.86674 to 6.15889
+[2020-12-03 19:39:48]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 5 - loss: 6.0662 acc: 0.7991 - f1: 0.4039 val_loss: 5.6816 - val_acc: 0.8014 - val_f1: 0.4004
+[2020-12-03 19:39:48]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 5: val_loss improved from 6.15889 to 5.68164
+[2020-12-03 19:40:58]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-03 19:40:58]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-03 19:40:58]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 19:40:58]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 19:40:58]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 19:40:59]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-03 19:41:04]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-03 19:41:04]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-03 19:41:04]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-03 19:41:04]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.89061M
+[2020-12-03 19:41:04]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5220, 300)
+    (dropout): Dropout(p=0, inplace=False)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=14, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-03 19:49:04]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 1 - loss: 16.9345 acc: 0.6168 - f1: 0.6168 val_loss: 10.3063 - val_acc: 0.7488 - val_f1: 0.7488
+[2020-12-03 19:49:04]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 1: val_loss improved from inf to 10.30635
+[2020-12-03 19:56:53]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 2 - loss: 9.4863 acc: 0.7607 - f1: 0.7607 val_loss: 7.9791 - val_acc: 0.7795 - val_f1: 0.7795
+[2020-12-03 19:56:53]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 2: val_loss improved from 10.30635 to 7.97907
+[2020-12-03 20:04:36]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 3 - loss: 7.7236 acc: 0.7830 - f1: 0.7830 val_loss: 6.8667 - val_acc: 0.7906 - val_f1: 0.7906
+[2020-12-03 20:04:36]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 3: val_loss improved from 7.97907 to 6.86674
+[2020-12-03 20:12:28]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 4 - loss: 6.7409 acc: 0.7928 - f1: 0.7928 val_loss: 6.1589 - val_acc: 0.7977 - val_f1: 0.7977
+[2020-12-03 20:12:28]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 4: val_loss improved from 6.86674 to 6.15889
+[2020-12-03 20:20:48]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 5 - loss: 6.0662 acc: 0.7991 - f1: 0.7991 val_loss: 5.6816 - val_acc: 0.8014 - val_f1: 0.8014
+[2020-12-03 20:20:49]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 5: val_loss improved from 6.15889 to 5.68164
+[2020-12-03 20:21:45]: bilstm_crf test_predict.py[line:20] INFO  seed is 2018
+[2020-12-03 20:21:45]: bilstm_crf test_predict.py[line:27] INFO  starting load test data from disk
+[2020-12-03 20:21:45]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 20:22:09]: bilstm_crf test_predict.py[line:20] INFO  seed is 2018
+[2020-12-03 20:22:09]: bilstm_crf test_predict.py[line:27] INFO  starting load test data from disk
+[2020-12-03 20:22:09]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 20:22:10]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 20:22:10]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 20:22:12]: bilstm_crf data_transformer.py[line:208] INFO  Total 20890 word vectors.
+[2020-12-03 20:22:13]: bilstm_crf test_predict.py[line:52] INFO  initializing model
+[2020-12-03 20:24:14]: bilstm_crf test_predict.py[line:20] INFO  seed is 2018
+[2020-12-03 20:24:14]: bilstm_crf test_predict.py[line:27] INFO  starting load test data from disk
+[2020-12-03 20:24:14]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 20:24:14]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 20:24:14]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 20:24:15]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-03 20:24:16]: bilstm_crf test_predict.py[line:52] INFO  initializing model
+[2020-12-03 20:24:16]: bilstm_crf test_predict.py[line:60] INFO  predicting model....
+[2020-12-03 20:24:16]: bilstm_crf predicter.py[line:30] INFO  
+Loading checkpoint: pyner\output/checkpoints/bilstm_crf\bilstm_crf-best2.pth ...
+[2020-12-03 20:24:16]: bilstm_crf predicter.py[line:33] INFO  
+Checkpoint 'pyner\output/checkpoints/bilstm_crf\bilstm_crf-best2.pth' loaded
+[2020-12-03 20:28:28]: bilstm_crf test_predict.py[line:20] INFO  seed is 2018
+[2020-12-03 20:28:28]: bilstm_crf test_predict.py[line:27] INFO  starting load test data from disk
+[2020-12-03 20:28:28]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 20:28:28]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 20:28:28]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 20:28:29]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-03 20:28:30]: bilstm_crf test_predict.py[line:52] INFO  initializing model
+[2020-12-03 20:28:30]: bilstm_crf test_predict.py[line:60] INFO  predicting model....
+[2020-12-03 20:28:30]: bilstm_crf predicter.py[line:30] INFO  
+Loading checkpoint: pyner\output/checkpoints/bilstm_crf\bilstm_crf-best2.pth ...
+[2020-12-03 20:28:30]: bilstm_crf predicter.py[line:33] INFO  
+Checkpoint 'pyner\output/checkpoints/bilstm_crf\bilstm_crf-best2.pth' loaded
+[2020-12-03 20:46:30]: bilstm_crf test_predict.py[line:20] INFO  seed is 2018
+[2020-12-03 20:46:30]: bilstm_crf test_predict.py[line:27] INFO  starting load test data from disk
+[2020-12-03 20:46:30]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-03 20:46:30]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-03 20:46:30]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-03 20:46:32]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-03 20:46:33]: bilstm_crf test_predict.py[line:52] INFO  initializing model
+[2020-12-03 20:46:33]: bilstm_crf test_predict.py[line:60] INFO  predicting model....
+[2020-12-03 20:46:33]: bilstm_crf predicter.py[line:30] INFO  
+Loading checkpoint: pyner\output/checkpoints/bilstm_crf\bilstm_crf-best2.pth ...
+[2020-12-03 20:46:33]: bilstm_crf predicter.py[line:33] INFO  
+Checkpoint 'pyner\output/checkpoints/bilstm_crf\bilstm_crf-best2.pth' loaded
+[2020-12-04 09:46:12]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-04 09:46:12]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-04 09:46:12]: bilstm_crf data_transformer.py[line:94] INFO  Building word vocab
+[2020-12-04 09:46:13]: bilstm_crf data_transformer.py[line:110] INFO  vocab_size is 5220
+[2020-12-04 09:46:13]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-04 09:46:17]: bilstm_crf data_transformer.py[line:74] INFO  train val split
+[2020-12-04 09:46:22]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-04 09:46:22]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-04 09:46:24]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-04 09:46:29]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-04 09:46:29]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-04 09:46:29]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-04 09:46:29]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.889056M
+[2020-12-04 09:46:29]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5220, 300)
+    (dropout): Dropout(p=0, inplace=False)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=7, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-04 09:47:00]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-04 09:47:00]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-04 09:47:00]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-04 09:47:00]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-04 09:47:00]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-04 09:47:02]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-04 09:47:11]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-04 09:47:11]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-04 09:47:11]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-04 09:47:11]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.8888420000000001M
+[2020-12-04 09:47:11]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5220, 300)
+    (dropout): Dropout(p=0, inplace=False)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=6, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-04 10:30:23]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-04 10:30:23]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-04 10:30:23]: bilstm_crf data_transformer.py[line:94] INFO  Building word vocab
+[2020-12-04 10:30:24]: bilstm_crf data_transformer.py[line:110] INFO  vocab_size is 5220
+[2020-12-04 10:30:24]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-04 10:30:27]: bilstm_crf data_transformer.py[line:74] INFO  train val split
+[2020-12-04 10:30:32]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-04 10:30:32]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-04 10:30:33]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-04 10:30:38]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-04 10:30:38]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-04 10:30:38]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-04 10:30:38]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.8888420000000001M
+[2020-12-04 10:30:38]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5220, 300)
+    (dropout): Dropout(p=0, inplace=False)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=6, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-04 13:43:47]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-04 13:43:47]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-04 13:43:47]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-04 13:43:47]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-04 13:43:47]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-04 13:43:48]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-04 13:43:54]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-04 13:43:54]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-04 13:43:54]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-04 13:43:54]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.890382M
+[2020-12-04 13:43:54]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5220, 300)
+    (dropout): Dropout(p=0, inplace=False)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=13, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-04 13:46:03]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-04 13:46:03]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-04 13:46:03]: bilstm_crf data_transformer.py[line:94] INFO  Building word vocab
+[2020-12-04 13:46:04]: bilstm_crf data_transformer.py[line:110] INFO  vocab_size is 5220
+[2020-12-04 13:46:04]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-04 13:46:07]: bilstm_crf data_transformer.py[line:74] INFO  train val split
+[2020-12-04 13:46:11]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-04 13:46:11]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-04 13:46:12]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-04 13:46:16]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-04 13:46:16]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-04 13:46:16]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-04 13:46:16]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.890382M
+[2020-12-04 13:46:16]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5220, 300)
+    (dropout): Dropout(p=0, inplace=False)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=13, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-04 13:51:00]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-04 13:51:00]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-04 13:51:00]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-04 13:51:00]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-04 13:51:00]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-04 13:51:01]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-04 13:51:06]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-04 13:51:06]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-04 13:51:06]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-04 13:51:06]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.890382M
+[2020-12-04 13:51:06]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5220, 300)
+    (dropout): Dropout(p=0, inplace=False)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=13, bias=True)
+  )
+  (crf): CRF()
+)

@@ -1,0 +1,582 @@
+[2020-12-28 13:12:03]: bilstm_crf test_predict.py[line:19] INFO  seed is 2018
+[2020-12-28 13:12:03]: bilstm_crf test_predict.py[line:26] INFO  starting load test data from disk
+[2020-12-28 13:12:03]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-28 13:12:03]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-28 13:12:03]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-28 13:12:04]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-28 13:12:04]: bilstm_crf test_predict.py[line:51] INFO  initializing model
+[2020-12-28 13:12:07]: bilstm_crf test_predict.py[line:59] INFO  predicting model....
+[2020-12-28 13:12:07]: bilstm_crf predicter.py[line:30] INFO  
+Loading checkpoint: pyner/output/checkpoints/bilstm_crf/bilstm_crf-best2.pth ...
+[2020-12-28 13:12:07]: bilstm_crf predicter.py[line:33] INFO  
+Checkpoint 'pyner/output/checkpoints/bilstm_crf/bilstm_crf-best2.pth' loaded
+[2020-12-28 13:19:27]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-28 13:19:27]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-28 13:19:27]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-28 13:19:27]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-28 13:19:27]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-28 13:19:27]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-28 13:19:29]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-28 13:19:32]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-28 13:19:32]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-28 13:19:32]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.8888900000000002M
+[2020-12-28 13:19:32]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5218, 300)
+    (dropout): Dropout(p=0)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=9, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-28 13:19:45]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 1 - loss: 5.7488 acc: 0.7751 - f1: 0.7751 val_loss: 3.4789 - val_acc: 0.8557 - val_f1: 0.8557
+[2020-12-28 13:19:45]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 1: val_loss improved from inf to 3.47888
+[2020-12-28 13:19:59]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 2 - loss: 3.2510 acc: 0.8584 - f1: 0.8584 val_loss: 2.7970 - val_acc: 0.8678 - val_f1: 0.8678
+[2020-12-28 13:19:59]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 2: val_loss improved from 3.47888 to 2.79700
+[2020-12-28 13:20:12]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 3 - loss: 2.6976 acc: 0.8676 - f1: 0.8676 val_loss: 2.4342 - val_acc: 0.8729 - val_f1: 0.8729
+[2020-12-28 13:20:13]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 3: val_loss improved from 2.79700 to 2.43422
+[2020-12-28 13:20:27]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 4 - loss: 2.3936 acc: 0.8714 - f1: 0.8714 val_loss: 2.2653 - val_acc: 0.8729 - val_f1: 0.8729
+[2020-12-28 13:20:27]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 4: val_loss improved from 2.43422 to 2.26533
+[2020-12-28 13:20:40]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 5 - loss: 2.2030 acc: 0.8735 - f1: 0.8735 val_loss: 2.1031 - val_acc: 0.8756 - val_f1: 0.8756
+[2020-12-28 13:20:41]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 5: val_loss improved from 2.26533 to 2.10309
+[2020-12-28 13:20:55]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 6 - loss: 2.0772 acc: 0.8751 - f1: 0.8751 val_loss: 2.0221 - val_acc: 0.8736 - val_f1: 0.8736
+[2020-12-28 13:20:56]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 6: val_loss improved from 2.10309 to 2.02206
+[2020-12-28 13:21:08]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 7 - loss: 1.9914 acc: 0.8760 - f1: 0.8760 val_loss: 1.9619 - val_acc: 0.8741 - val_f1: 0.8741
+[2020-12-28 13:21:09]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 7: val_loss improved from 2.02206 to 1.96191
+[2020-12-28 13:21:22]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 8 - loss: 1.9369 acc: 0.8757 - f1: 0.8757 val_loss: 1.9451 - val_acc: 0.8729 - val_f1: 0.8729
+[2020-12-28 13:21:22]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 8: val_loss improved from 1.96191 to 1.94507
+[2020-12-28 13:21:36]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 9 - loss: 1.8936 acc: 0.8762 - f1: 0.8762 val_loss: 1.8837 - val_acc: 0.8747 - val_f1: 0.8747
+[2020-12-28 13:21:37]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 9: val_loss improved from 1.94507 to 1.88372
+[2020-12-28 13:21:50]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 10 - loss: 1.8651 acc: 0.8762 - f1: 0.8762 val_loss: 1.8643 - val_acc: 0.8750 - val_f1: 0.8750
+[2020-12-28 13:21:51]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 10: val_loss improved from 1.88372 to 1.86426
+[2020-12-28 13:22:05]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 11 - loss: 1.8352 acc: 0.8765 - f1: 0.8765 val_loss: 1.8578 - val_acc: 0.8730 - val_f1: 0.8730
+[2020-12-28 13:22:06]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 11: val_loss improved from 1.86426 to 1.85784
+[2020-12-28 13:22:18]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 12 - loss: 1.8214 acc: 0.8765 - f1: 0.8765 val_loss: 1.8361 - val_acc: 0.8740 - val_f1: 0.8740
+[2020-12-28 13:22:19]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 12: val_loss improved from 1.85784 to 1.83610
+[2020-12-28 13:22:32]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 13 - loss: 1.8020 acc: 0.8766 - f1: 0.8766 val_loss: 1.8191 - val_acc: 0.8753 - val_f1: 0.8753
+[2020-12-28 13:22:32]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 13: val_loss improved from 1.83610 to 1.81906
+[2020-12-28 13:22:45]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 14 - loss: 1.7964 acc: 0.8762 - f1: 0.8762 val_loss: 1.8180 - val_acc: 0.8752 - val_f1: 0.8752
+[2020-12-28 13:22:46]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 14: val_loss improved from 1.81906 to 1.81800
+[2020-12-28 13:22:59]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 15 - loss: 1.7828 acc: 0.8765 - f1: 0.8765 val_loss: 1.7965 - val_acc: 0.8737 - val_f1: 0.8737
+[2020-12-28 13:22:59]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 15: val_loss improved from 1.81800 to 1.79651
+[2020-12-28 13:23:15]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 16 - loss: 1.7744 acc: 0.8766 - f1: 0.8766 val_loss: 1.7952 - val_acc: 0.8747 - val_f1: 0.8747
+[2020-12-28 13:23:15]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 16: val_loss improved from 1.79651 to 1.79518
+[2020-12-28 13:23:28]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 17 - loss: 1.7694 acc: 0.8762 - f1: 0.8762 val_loss: 1.7888 - val_acc: 0.8750 - val_f1: 0.8750
+[2020-12-28 13:23:29]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 17: val_loss improved from 1.79518 to 1.78884
+[2020-12-28 13:23:41]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 18 - loss: 1.7557 acc: 0.8774 - f1: 0.8774 val_loss: 1.7835 - val_acc: 0.8749 - val_f1: 0.8749
+[2020-12-28 13:23:42]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 18: val_loss improved from 1.78884 to 1.78352
+[2020-12-28 13:23:56]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 19 - loss: 1.7505 acc: 0.8773 - f1: 0.8773 val_loss: 1.7757 - val_acc: 0.8734 - val_f1: 0.8734
+[2020-12-28 13:23:57]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 19: val_loss improved from 1.78352 to 1.77571
+[2020-12-28 13:24:10]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 20 - loss: 1.7414 acc: 0.8776 - f1: 0.8776 val_loss: 1.7844 - val_acc: 0.8745 - val_f1: 0.8745
+[2020-12-28 13:24:23]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 21 - loss: 1.7307 acc: 0.8780 - f1: 0.8780 val_loss: 1.7825 - val_acc: 0.8736 - val_f1: 0.8736
+[2020-12-28 13:24:36]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 22 - loss: 1.7250 acc: 0.8788 - f1: 0.8788 val_loss: 1.7677 - val_acc: 0.8737 - val_f1: 0.8737
+[2020-12-28 13:24:36]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 22: val_loss improved from 1.77571 to 1.76772
+[2020-12-28 13:24:52]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 23 - loss: 1.7175 acc: 0.8789 - f1: 0.8789 val_loss: 1.7601 - val_acc: 0.8750 - val_f1: 0.8750
+[2020-12-28 13:24:52]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 23: val_loss improved from 1.76772 to 1.76012
+[2020-12-28 13:25:05]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 24 - loss: 1.7142 acc: 0.8789 - f1: 0.8789 val_loss: 1.7754 - val_acc: 0.8751 - val_f1: 0.8751
+[2020-12-28 13:25:18]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 25 - loss: 1.7035 acc: 0.8794 - f1: 0.8794 val_loss: 1.7573 - val_acc: 0.8753 - val_f1: 0.8753
+[2020-12-28 13:25:19]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 25: val_loss improved from 1.76012 to 1.75726
+[2020-12-28 13:25:33]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 26 - loss: 1.6938 acc: 0.8806 - f1: 0.8806 val_loss: 1.7454 - val_acc: 0.8754 - val_f1: 0.8754
+[2020-12-28 13:25:34]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 26: val_loss improved from 1.75726 to 1.74545
+[2020-12-28 13:25:47]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 27 - loss: 1.6886 acc: 0.8805 - f1: 0.8805 val_loss: 1.7694 - val_acc: 0.8764 - val_f1: 0.8764
+[2020-12-28 13:26:00]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 28 - loss: 1.6812 acc: 0.8811 - f1: 0.8811 val_loss: 1.8228 - val_acc: 0.8743 - val_f1: 0.8743
+[2020-12-28 13:26:13]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 29 - loss: 1.6769 acc: 0.8812 - f1: 0.8812 val_loss: 1.7748 - val_acc: 0.8762 - val_f1: 0.8762
+[2020-12-28 13:26:26]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 30 - loss: 1.6701 acc: 0.8818 - f1: 0.8818 val_loss: 1.7634 - val_acc: 0.8764 - val_f1: 0.8764
+[2020-12-28 13:26:40]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 31 - loss: 1.6623 acc: 0.8827 - f1: 0.8827 val_loss: 1.7521 - val_acc: 0.8767 - val_f1: 0.8767
+[2020-12-28 13:26:53]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 32 - loss: 1.6574 acc: 0.8830 - f1: 0.8830 val_loss: 1.7347 - val_acc: 0.8772 - val_f1: 0.8772
+[2020-12-28 13:26:53]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 32: val_loss improved from 1.74545 to 1.73468
+[2020-12-28 13:27:06]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 33 - loss: 1.6543 acc: 0.8827 - f1: 0.8827 val_loss: 1.7512 - val_acc: 0.8760 - val_f1: 0.8760
+[2020-12-28 13:27:19]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 34 - loss: 1.6486 acc: 0.8832 - f1: 0.8832 val_loss: 1.7448 - val_acc: 0.8743 - val_f1: 0.8743
+[2020-12-28 13:27:32]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 35 - loss: 1.6441 acc: 0.8834 - f1: 0.8834 val_loss: 1.7557 - val_acc: 0.8748 - val_f1: 0.8748
+[2020-12-28 13:27:51]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 36 - loss: 1.6396 acc: 0.8840 - f1: 0.8840 val_loss: 1.7445 - val_acc: 0.8764 - val_f1: 0.8764
+[2020-12-28 13:28:04]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 37 - loss: 1.6326 acc: 0.8842 - f1: 0.8842 val_loss: 1.7437 - val_acc: 0.8760 - val_f1: 0.8760
+[2020-12-28 13:28:18]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 38 - loss: 1.6265 acc: 0.8846 - f1: 0.8846 val_loss: 1.7358 - val_acc: 0.8761 - val_f1: 0.8761
+[2020-12-28 13:31:15]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-28 13:31:15]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-28 13:31:15]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-28 13:31:15]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-28 13:31:15]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-28 13:31:15]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-28 13:31:17]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-28 13:31:18]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-28 13:31:18]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-28 13:31:18]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.8888900000000002M
+[2020-12-28 13:31:18]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5218, 300)
+    (dropout): Dropout(p=0)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=9, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-28 13:31:27]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 1 - loss: 4.7192 acc: 0.8044 - f1: 0.8044 val_loss: 2.9262 - val_acc: 0.8604 - val_f1: 0.8604
+[2020-12-28 13:31:27]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 1: val_loss improved from inf to 2.92623
+[2020-12-28 13:31:36]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 2 - loss: 2.6985 acc: 0.8603 - f1: 0.8603 val_loss: 2.3248 - val_acc: 0.8675 - val_f1: 0.8675
+[2020-12-28 13:31:36]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 2: val_loss improved from 2.92623 to 2.32484
+[2020-12-28 13:31:45]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 3 - loss: 2.3038 acc: 0.8657 - f1: 0.8657 val_loss: 2.1490 - val_acc: 0.8697 - val_f1: 0.8697
+[2020-12-28 13:31:45]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 3: val_loss improved from 2.32484 to 2.14895
+[2020-12-28 13:31:54]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 4 - loss: 2.1275 acc: 0.8679 - f1: 0.8679 val_loss: 2.0261 - val_acc: 0.8705 - val_f1: 0.8705
+[2020-12-28 13:31:54]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 4: val_loss improved from 2.14895 to 2.02611
+[2020-12-28 13:32:03]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 5 - loss: 2.0432 acc: 0.8679 - f1: 0.8679 val_loss: 1.9354 - val_acc: 0.8705 - val_f1: 0.8705
+[2020-12-28 13:32:04]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 5: val_loss improved from 2.02611 to 1.93541
+[2020-12-28 13:32:12]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 6 - loss: 1.9801 acc: 0.8691 - f1: 0.8691 val_loss: 1.9215 - val_acc: 0.8698 - val_f1: 0.8698
+[2020-12-28 13:32:13]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 6: val_loss improved from 1.93541 to 1.92147
+[2020-12-28 13:32:48]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-28 13:32:48]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-28 13:32:48]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-28 13:32:48]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-28 13:32:48]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-28 13:32:49]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-28 13:32:50]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-28 13:32:52]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-28 13:32:52]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-28 13:32:52]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.8888900000000002M
+[2020-12-28 13:32:52]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5218, 300)
+    (dropout): Dropout(p=0)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=9, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-28 13:33:13]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 1 - loss: 8.0729 acc: 0.8389 - f1: 0.8389 val_loss: 4.4572 - val_acc: 0.8961 - val_f1: 0.8961
+[2020-12-28 13:33:13]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 1: val_loss improved from inf to 4.45723
+[2020-12-28 13:33:36]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 2 - loss: 4.2203 acc: 0.8987 - f1: 0.8987 val_loss: 3.4893 - val_acc: 0.9040 - val_f1: 0.9040
+[2020-12-28 13:33:36]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 2: val_loss improved from 4.45723 to 3.48934
+[2020-12-28 13:33:57]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 3 - loss: 3.5027 acc: 0.9055 - f1: 0.9055 val_loss: 3.3112 - val_acc: 0.9032 - val_f1: 0.9032
+[2020-12-28 13:33:58]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 3: val_loss improved from 3.48934 to 3.31119
+[2020-12-28 13:34:19]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 4 - loss: 3.1711 acc: 0.9075 - f1: 0.9075 val_loss: 2.8560 - val_acc: 0.9093 - val_f1: 0.9093
+[2020-12-28 13:34:19]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 4: val_loss improved from 3.31119 to 2.85601
+[2020-12-28 13:34:43]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 5 - loss: 2.9714 acc: 0.9096 - f1: 0.9096 val_loss: 2.7107 - val_acc: 0.9106 - val_f1: 0.9106
+[2020-12-28 13:34:44]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 5: val_loss improved from 2.85601 to 2.71073
+[2020-12-28 13:35:05]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 6 - loss: 2.8508 acc: 0.9101 - f1: 0.9101 val_loss: 2.6591 - val_acc: 0.9100 - val_f1: 0.9100
+[2020-12-28 13:35:06]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 6: val_loss improved from 2.71073 to 2.65912
+[2020-12-28 13:35:27]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 7 - loss: 2.7624 acc: 0.9109 - f1: 0.9109 val_loss: 2.6019 - val_acc: 0.9100 - val_f1: 0.9100
+[2020-12-28 13:35:27]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 7: val_loss improved from 2.65912 to 2.60188
+[2020-12-28 13:35:51]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 8 - loss: 2.7109 acc: 0.9107 - f1: 0.9107 val_loss: 2.5725 - val_acc: 0.9112 - val_f1: 0.9112
+[2020-12-28 13:35:52]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 8: val_loss improved from 2.60188 to 2.57245
+[2020-12-28 13:36:14]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 9 - loss: 2.6568 acc: 0.9121 - f1: 0.9121 val_loss: 2.5369 - val_acc: 0.9105 - val_f1: 0.9105
+[2020-12-28 13:36:15]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 9: val_loss improved from 2.57245 to 2.53692
+[2020-12-28 13:36:36]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 10 - loss: 2.6277 acc: 0.9126 - f1: 0.9126 val_loss: 2.5358 - val_acc: 0.9102 - val_f1: 0.9102
+[2020-12-28 13:36:37]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 10: val_loss improved from 2.53692 to 2.53582
+[2020-12-28 13:36:59]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 11 - loss: 2.6011 acc: 0.9125 - f1: 0.9125 val_loss: 2.4637 - val_acc: 0.9117 - val_f1: 0.9117
+[2020-12-28 13:37:00]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 11: val_loss improved from 2.53582 to 2.46374
+[2020-12-28 13:37:22]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 12 - loss: 2.5743 acc: 0.9125 - f1: 0.9125 val_loss: 2.4347 - val_acc: 0.9120 - val_f1: 0.9120
+[2020-12-28 13:37:23]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 12: val_loss improved from 2.46374 to 2.43466
+[2020-12-28 13:37:44]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 13 - loss: 2.5626 acc: 0.9125 - f1: 0.9125 val_loss: 2.4117 - val_acc: 0.9129 - val_f1: 0.9129
+[2020-12-28 13:37:45]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 13: val_loss improved from 2.43466 to 2.41169
+[2020-12-28 13:38:06]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 14 - loss: 2.5207 acc: 0.9141 - f1: 0.9141 val_loss: 2.4321 - val_acc: 0.9119 - val_f1: 0.9119
+[2020-12-28 13:38:30]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 15 - loss: 2.5101 acc: 0.9143 - f1: 0.9143 val_loss: 2.4119 - val_acc: 0.9126 - val_f1: 0.9126
+[2020-12-28 13:38:51]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 16 - loss: 2.5019 acc: 0.9142 - f1: 0.9142 val_loss: 2.3446 - val_acc: 0.9136 - val_f1: 0.9136
+[2020-12-28 13:38:52]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 16: val_loss improved from 2.41169 to 2.34455
+[2020-12-28 13:39:13]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 17 - loss: 2.4785 acc: 0.9147 - f1: 0.9147 val_loss: 2.3818 - val_acc: 0.9138 - val_f1: 0.9138
+[2020-12-28 13:39:34]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 18 - loss: 2.4613 acc: 0.9151 - f1: 0.9151 val_loss: 2.3673 - val_acc: 0.9126 - val_f1: 0.9126
+[2020-12-28 13:39:56]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 19 - loss: 2.4673 acc: 0.9147 - f1: 0.9147 val_loss: 2.4324 - val_acc: 0.9124 - val_f1: 0.9124
+[2020-12-28 13:40:17]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 20 - loss: 2.4502 acc: 0.9151 - f1: 0.9151 val_loss: 2.3276 - val_acc: 0.9136 - val_f1: 0.9136
+[2020-12-28 13:40:18]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 20: val_loss improved from 2.34455 to 2.32764
+[2020-12-28 13:40:44]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 21 - loss: 2.4305 acc: 0.9154 - f1: 0.9154 val_loss: 2.3329 - val_acc: 0.9146 - val_f1: 0.9146
+[2020-12-28 13:41:06]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 22 - loss: 2.4333 acc: 0.9161 - f1: 0.9161 val_loss: 2.3395 - val_acc: 0.9128 - val_f1: 0.9128
+[2020-12-28 13:41:27]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 23 - loss: 2.4169 acc: 0.9161 - f1: 0.9161 val_loss: 2.3445 - val_acc: 0.9135 - val_f1: 0.9135
+[2020-12-28 13:41:51]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 24 - loss: 2.4113 acc: 0.9167 - f1: 0.9167 val_loss: 2.2985 - val_acc: 0.9149 - val_f1: 0.9149
+[2020-12-28 13:41:52]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 24: val_loss improved from 2.32764 to 2.29854
+[2020-12-28 13:42:13]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 25 - loss: 2.4078 acc: 0.9168 - f1: 0.9168 val_loss: 2.3557 - val_acc: 0.9133 - val_f1: 0.9133
+[2020-12-28 13:42:36]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 26 - loss: 2.4065 acc: 0.9163 - f1: 0.9163 val_loss: 2.3331 - val_acc: 0.9142 - val_f1: 0.9142
+[2020-12-28 13:42:59]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 27 - loss: 2.3853 acc: 0.9169 - f1: 0.9169 val_loss: 2.3496 - val_acc: 0.9134 - val_f1: 0.9134
+[2020-12-28 13:43:20]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 28 - loss: 2.3881 acc: 0.9169 - f1: 0.9169 val_loss: 2.3802 - val_acc: 0.9134 - val_f1: 0.9134
+[2020-12-28 13:43:41]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 29 - loss: 2.3753 acc: 0.9171 - f1: 0.9171 val_loss: 2.3386 - val_acc: 0.9136 - val_f1: 0.9136
+[2020-12-28 13:44:06]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 30 - loss: 2.4010 acc: 0.9168 - f1: 0.9168 val_loss: 2.3218 - val_acc: 0.9144 - val_f1: 0.9144
+[2020-12-28 13:44:27]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 31 - loss: 2.3646 acc: 0.9174 - f1: 0.9174 val_loss: 2.3260 - val_acc: 0.9148 - val_f1: 0.9148
+[2020-12-28 13:44:49]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 32 - loss: 2.3601 acc: 0.9182 - f1: 0.9182 val_loss: 2.3306 - val_acc: 0.9140 - val_f1: 0.9140
+[2020-12-28 13:45:13]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 33 - loss: 2.3618 acc: 0.9176 - f1: 0.9176 val_loss: 2.3236 - val_acc: 0.9138 - val_f1: 0.9138
+[2020-12-28 13:45:34]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 34 - loss: 2.3550 acc: 0.9179 - f1: 0.9179 val_loss: 2.3343 - val_acc: 0.9143 - val_f1: 0.9143
+[2020-12-28 13:45:57]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 35 - loss: 2.3561 acc: 0.9180 - f1: 0.9180 val_loss: 2.2987 - val_acc: 0.9150 - val_f1: 0.9150
+[2020-12-28 13:46:20]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 36 - loss: 2.3540 acc: 0.9180 - f1: 0.9180 val_loss: 2.3494 - val_acc: 0.9128 - val_f1: 0.9128
+[2020-12-28 13:46:41]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 37 - loss: 2.3312 acc: 0.9186 - f1: 0.9186 val_loss: 2.3205 - val_acc: 0.9124 - val_f1: 0.9124
+[2020-12-28 13:47:04]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 38 - loss: 2.3427 acc: 0.9181 - f1: 0.9181 val_loss: 2.2983 - val_acc: 0.9148 - val_f1: 0.9148
+[2020-12-28 13:47:05]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 38: val_loss improved from 2.29854 to 2.29827
+[2020-12-28 13:47:27]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 39 - loss: 2.3418 acc: 0.9178 - f1: 0.9178 val_loss: 2.3227 - val_acc: 0.9132 - val_f1: 0.9132
+[2020-12-28 13:47:49]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 40 - loss: 2.2048 acc: 0.9224 - f1: 0.9224 val_loss: 2.2407 - val_acc: 0.9169 - val_f1: 0.9169
+[2020-12-28 13:47:50]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 40: val_loss improved from 2.29827 to 2.24073
+[2020-12-28 13:48:11]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 41 - loss: 2.1796 acc: 0.9232 - f1: 0.9232 val_loss: 2.2507 - val_acc: 0.9166 - val_f1: 0.9166
+[2020-12-28 13:48:32]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 42 - loss: 2.1742 acc: 0.9235 - f1: 0.9235 val_loss: 2.3094 - val_acc: 0.9146 - val_f1: 0.9146
+[2020-12-28 13:48:54]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 43 - loss: 2.1765 acc: 0.9232 - f1: 0.9232 val_loss: 2.2619 - val_acc: 0.9163 - val_f1: 0.9163
+[2020-12-28 13:49:16]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 44 - loss: 2.1701 acc: 0.9234 - f1: 0.9234 val_loss: 2.2444 - val_acc: 0.9161 - val_f1: 0.9161
+[2020-12-28 13:49:43]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 45 - loss: 2.1635 acc: 0.9234 - f1: 0.9234 val_loss: 2.2412 - val_acc: 0.9170 - val_f1: 0.9170
+[2020-12-28 13:50:04]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 46 - loss: 2.1527 acc: 0.9240 - f1: 0.9240 val_loss: 2.2403 - val_acc: 0.9173 - val_f1: 0.9173
+[2020-12-28 13:50:05]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 46: val_loss improved from 2.24073 to 2.24029
+[2020-12-28 13:50:26]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 47 - loss: 2.1504 acc: 0.9240 - f1: 0.9240 val_loss: 2.2517 - val_acc: 0.9166 - val_f1: 0.9166
+[2020-12-28 13:50:51]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 48 - loss: 2.1421 acc: 0.9241 - f1: 0.9241 val_loss: 2.2444 - val_acc: 0.9169 - val_f1: 0.9169
+[2020-12-28 13:51:12]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 49 - loss: 2.1436 acc: 0.9243 - f1: 0.9243 val_loss: 2.2610 - val_acc: 0.9154 - val_f1: 0.9154
+[2020-12-28 13:51:34]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 50 - loss: 2.1441 acc: 0.9242 - f1: 0.9242 val_loss: 2.2574 - val_acc: 0.9163 - val_f1: 0.9163
+[2020-12-28 13:51:59]: bilstm_crf test_predict.py[line:19] INFO  seed is 2018
+[2020-12-28 13:51:59]: bilstm_crf test_predict.py[line:26] INFO  starting load test data from disk
+[2020-12-28 13:51:59]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-28 13:51:59]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-28 13:51:59]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-28 13:52:00]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-28 13:52:00]: bilstm_crf test_predict.py[line:51] INFO  initializing model
+[2020-12-28 13:52:02]: bilstm_crf test_predict.py[line:59] INFO  predicting model....
+[2020-12-28 13:52:02]: bilstm_crf predicter.py[line:30] INFO  
+Loading checkpoint: pyner/output/checkpoints/bilstm_crf/bilstm_crf-best2.pth ...
+[2020-12-28 13:52:02]: bilstm_crf predicter.py[line:33] INFO  
+Checkpoint 'pyner/output/checkpoints/bilstm_crf/bilstm_crf-best2.pth' loaded
+[2020-12-28 13:56:40]: bilstm_crf test_predict.py[line:19] INFO  seed is 2018
+[2020-12-28 13:56:40]: bilstm_crf test_predict.py[line:26] INFO  starting load test data from disk
+[2020-12-28 13:56:40]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-28 13:56:40]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-28 13:56:40]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-28 13:56:40]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-28 13:56:41]: bilstm_crf test_predict.py[line:51] INFO  initializing model
+[2020-12-28 13:56:42]: bilstm_crf test_predict.py[line:59] INFO  predicting model....
+[2020-12-28 13:56:42]: bilstm_crf predicter.py[line:30] INFO  
+Loading checkpoint: pyner/output/checkpoints/bilstm_crf/bilstm_crf-best2.pth ...
+[2020-12-28 13:56:42]: bilstm_crf predicter.py[line:33] INFO  
+Checkpoint 'pyner/output/checkpoints/bilstm_crf/bilstm_crf-best2.pth' loaded
+[2020-12-28 15:33:24]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-28 15:33:24]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-28 15:33:24]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-28 15:33:24]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-28 15:33:24]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-28 15:33:24]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-28 15:33:26]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-28 15:33:28]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-28 15:33:28]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-28 15:33:28]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.8888900000000002M
+[2020-12-28 15:33:28]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5218, 300)
+    (dropout): Dropout(p=0)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=9, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-28 15:35:42]: bilstm_crf train_bilstm_crf.py[line:22] INFO  seed is 2018
+[2020-12-28 15:35:42]: bilstm_crf train_bilstm_crf.py[line:26] INFO  starting load train data from disk
+[2020-12-28 15:35:42]: bilstm_crf data_transformer.py[line:94] INFO  Building word vocab
+[2020-12-28 15:35:43]: bilstm_crf data_transformer.py[line:110] INFO  vocab_size is 5218
+[2020-12-28 15:35:43]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-28 15:35:44]: bilstm_crf data_transformer.py[line:74] INFO  train val split
+[2020-12-28 15:35:46]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-28 15:35:46]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-28 15:35:46]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-28 15:35:48]: bilstm_crf train_bilstm_crf.py[line:77] INFO  initializing model
+[2020-12-28 15:35:50]: bilstm_crf train_bilstm_crf.py[line:89] INFO  initializing callbacks
+[2020-12-28 15:35:50]: bilstm_crf train_bilstm_crf.py[line:113] INFO  training model....
+[2020-12-28 15:35:50]: bilstm_crf trainer.py[line:82] INFO  trainable parameters: 1.888456M
+[2020-12-28 15:35:50]: bilstm_crf trainer.py[line:84] INFO  Model(
+  (embedding): Embed_Layer(
+    (encoder): Embedding(5218, 300)
+    (dropout): Dropout(p=0)
+  )
+  (lstm): BILSTM(
+    (lstm): LSTM(300, 100, batch_first=True, dropout=0.5, bidirectional=True)
+    (linear): Linear(in_features=200, out_features=7, bias=True)
+  )
+  (crf): CRF()
+)
+[2020-12-28 15:36:09]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 1 - loss: 4.8091 acc: 0.8881 - f1: 0.8881 val_loss: 2.5952 - val_acc: 0.9351 - val_f1: 0.9351
+[2020-12-28 15:36:09]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 1: val_loss improved from inf to 2.59519
+[2020-12-28 15:36:33]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 2 - loss: 2.6162 acc: 0.9378 - f1: 0.9378 val_loss: 2.2208 - val_acc: 0.9407 - val_f1: 0.9407
+[2020-12-28 15:36:33]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 2: val_loss improved from 2.59519 to 2.22083
+[2020-12-28 15:36:53]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 3 - loss: 2.2972 acc: 0.9428 - f1: 0.9428 val_loss: 2.1456 - val_acc: 0.9418 - val_f1: 0.9418
+[2020-12-28 15:36:53]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 3: val_loss improved from 2.22083 to 2.14556
+[2020-12-28 15:37:13]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 4 - loss: 2.1463 acc: 0.9442 - f1: 0.9442 val_loss: 1.9566 - val_acc: 0.9435 - val_f1: 0.9435
+[2020-12-28 15:37:13]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 4: val_loss improved from 2.14556 to 1.95661
+[2020-12-28 15:37:33]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 5 - loss: 2.0607 acc: 0.9457 - f1: 0.9457 val_loss: 1.9075 - val_acc: 0.9441 - val_f1: 0.9441
+[2020-12-28 15:37:33]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 5: val_loss improved from 1.95661 to 1.90746
+[2020-12-28 15:37:55]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 6 - loss: 2.0023 acc: 0.9463 - f1: 0.9463 val_loss: 1.8780 - val_acc: 0.9445 - val_f1: 0.9445
+[2020-12-28 15:37:55]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 6: val_loss improved from 1.90746 to 1.87800
+[2020-12-28 15:38:16]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 7 - loss: 1.9675 acc: 0.9466 - f1: 0.9466 val_loss: 1.8752 - val_acc: 0.9437 - val_f1: 0.9437
+[2020-12-28 15:38:16]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 7: val_loss improved from 1.87800 to 1.87521
+[2020-12-28 15:38:36]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 8 - loss: 1.9582 acc: 0.9466 - f1: 0.9466 val_loss: 1.8683 - val_acc: 0.9443 - val_f1: 0.9443
+[2020-12-28 15:38:36]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 8: val_loss improved from 1.87521 to 1.86826
+[2020-12-28 15:38:55]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 9 - loss: 1.9346 acc: 0.9472 - f1: 0.9472 val_loss: 1.8065 - val_acc: 0.9447 - val_f1: 0.9447
+[2020-12-28 15:38:56]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 9: val_loss improved from 1.86826 to 1.80651
+[2020-12-28 15:39:15]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 10 - loss: 1.9149 acc: 0.9475 - f1: 0.9475 val_loss: 1.7706 - val_acc: 0.9465 - val_f1: 0.9465
+[2020-12-28 15:39:15]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 10: val_loss improved from 1.80651 to 1.77059
+[2020-12-28 15:39:35]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 11 - loss: 1.8762 acc: 0.9480 - f1: 0.9480 val_loss: 1.7828 - val_acc: 0.9453 - val_f1: 0.9453
+[2020-12-28 15:39:54]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 12 - loss: 1.8647 acc: 0.9483 - f1: 0.9483 val_loss: 1.7704 - val_acc: 0.9453 - val_f1: 0.9453
+[2020-12-28 15:39:54]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 12: val_loss improved from 1.77059 to 1.77038
+[2020-12-28 15:40:13]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 13 - loss: 1.8554 acc: 0.9491 - f1: 0.9491 val_loss: 1.7791 - val_acc: 0.9453 - val_f1: 0.9453
+[2020-12-28 15:40:38]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 14 - loss: 1.8342 acc: 0.9493 - f1: 0.9493 val_loss: 1.7725 - val_acc: 0.9452 - val_f1: 0.9452
+[2020-12-28 15:40:58]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 15 - loss: 1.8407 acc: 0.9496 - f1: 0.9496 val_loss: 1.8365 - val_acc: 0.9441 - val_f1: 0.9441
+[2020-12-28 15:41:18]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 16 - loss: 1.8096 acc: 0.9502 - f1: 0.9502 val_loss: 1.7658 - val_acc: 0.9453 - val_f1: 0.9453
+[2020-12-28 15:41:19]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 16: val_loss improved from 1.77038 to 1.76578
+[2020-12-28 15:41:38]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 17 - loss: 1.8024 acc: 0.9502 - f1: 0.9502 val_loss: 1.7304 - val_acc: 0.9462 - val_f1: 0.9462
+[2020-12-28 15:41:38]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 17: val_loss improved from 1.76578 to 1.73042
+[2020-12-28 15:41:58]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 18 - loss: 1.8056 acc: 0.9499 - f1: 0.9499 val_loss: 1.7293 - val_acc: 0.9471 - val_f1: 0.9471
+[2020-12-28 15:41:58]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 18: val_loss improved from 1.73042 to 1.72932
+[2020-12-28 15:42:20]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 19 - loss: 1.7790 acc: 0.9509 - f1: 0.9509 val_loss: 1.7394 - val_acc: 0.9470 - val_f1: 0.9470
+[2020-12-28 15:42:39]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 20 - loss: 1.7763 acc: 0.9504 - f1: 0.9504 val_loss: 1.7277 - val_acc: 0.9463 - val_f1: 0.9463
+[2020-12-28 15:42:40]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 20: val_loss improved from 1.72932 to 1.72772
+[2020-12-28 15:43:00]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 21 - loss: 1.7699 acc: 0.9505 - f1: 0.9505 val_loss: 1.7174 - val_acc: 0.9469 - val_f1: 0.9469
+[2020-12-28 15:43:01]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 21: val_loss improved from 1.72772 to 1.71737
+[2020-12-28 15:43:20]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 22 - loss: 1.7966 acc: 0.9502 - f1: 0.9502 val_loss: 1.7214 - val_acc: 0.9473 - val_f1: 0.9473
+[2020-12-28 15:43:39]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 23 - loss: 1.7613 acc: 0.9513 - f1: 0.9513 val_loss: 1.7195 - val_acc: 0.9470 - val_f1: 0.9470
+[2020-12-28 15:44:01]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 24 - loss: 1.7592 acc: 0.9517 - f1: 0.9517 val_loss: 1.7049 - val_acc: 0.9474 - val_f1: 0.9474
+[2020-12-28 15:44:01]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 24: val_loss improved from 1.71737 to 1.70492
+[2020-12-28 15:44:21]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 25 - loss: 1.7454 acc: 0.9518 - f1: 0.9518 val_loss: 1.7063 - val_acc: 0.9482 - val_f1: 0.9482
+[2020-12-28 15:44:40]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 26 - loss: 1.7497 acc: 0.9516 - f1: 0.9516 val_loss: 1.7284 - val_acc: 0.9472 - val_f1: 0.9472
+[2020-12-28 15:44:59]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 27 - loss: 1.7489 acc: 0.9516 - f1: 0.9516 val_loss: 1.7001 - val_acc: 0.9482 - val_f1: 0.9482
+[2020-12-28 15:44:59]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 27: val_loss improved from 1.70492 to 1.70014
+[2020-12-28 15:45:22]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 28 - loss: 1.6285 acc: 0.9551 - f1: 0.9551 val_loss: 1.6535 - val_acc: 0.9490 - val_f1: 0.9490
+[2020-12-28 15:45:22]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 28: val_loss improved from 1.70014 to 1.65349
+[2020-12-28 15:45:43]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 29 - loss: 1.6140 acc: 0.9556 - f1: 0.9556 val_loss: 1.6753 - val_acc: 0.9483 - val_f1: 0.9483
+[2020-12-28 15:46:02]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 30 - loss: 1.6096 acc: 0.9555 - f1: 0.9555 val_loss: 1.6720 - val_acc: 0.9489 - val_f1: 0.9489
+[2020-12-28 15:46:21]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 31 - loss: 1.6103 acc: 0.9552 - f1: 0.9552 val_loss: 1.6644 - val_acc: 0.9488 - val_f1: 0.9488
+[2020-12-28 15:46:41]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 32 - loss: 1.5988 acc: 0.9562 - f1: 0.9562 val_loss: 1.6538 - val_acc: 0.9492 - val_f1: 0.9492
+[2020-12-28 15:47:03]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 33 - loss: 1.5919 acc: 0.9564 - f1: 0.9564 val_loss: 1.6650 - val_acc: 0.9487 - val_f1: 0.9487
+[2020-12-28 15:47:24]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 34 - loss: 1.5854 acc: 0.9569 - f1: 0.9569 val_loss: 1.6721 - val_acc: 0.9493 - val_f1: 0.9493
+[2020-12-28 15:47:44]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 35 - loss: 1.6153 acc: 0.9554 - f1: 0.9554 val_loss: 1.6579 - val_acc: 0.9492 - val_f1: 0.9492
+[2020-12-28 15:48:05]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 36 - loss: 1.5690 acc: 0.9565 - f1: 0.9565 val_loss: 1.6728 - val_acc: 0.9490 - val_f1: 0.9490
+[2020-12-28 15:48:25]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 37 - loss: 1.5681 acc: 0.9567 - f1: 0.9567 val_loss: 1.6363 - val_acc: 0.9492 - val_f1: 0.9492
+[2020-12-28 15:48:25]: bilstm_crf modelcheckpoint.py[line:47] INFO  
+Epoch 37: val_loss improved from 1.65349 to 1.63625
+[2020-12-28 15:48:46]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 38 - loss: 1.5706 acc: 0.9563 - f1: 0.9563 val_loss: 1.6609 - val_acc: 0.9493 - val_f1: 0.9493
+[2020-12-28 15:49:07]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 39 - loss: 1.5565 acc: 0.9577 - f1: 0.9577 val_loss: 1.6730 - val_acc: 0.9483 - val_f1: 0.9483
+[2020-12-28 15:49:27]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 40 - loss: 1.5602 acc: 0.9574 - f1: 0.9574 val_loss: 1.6729 - val_acc: 0.9486 - val_f1: 0.9486
+[2020-12-28 15:49:47]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 41 - loss: 1.5458 acc: 0.9575 - f1: 0.9575 val_loss: 1.6432 - val_acc: 0.9497 - val_f1: 0.9497
+[2020-12-28 15:50:07]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 42 - loss: 1.5517 acc: 0.9573 - f1: 0.9573 val_loss: 1.6837 - val_acc: 0.9491 - val_f1: 0.9491
+[2020-12-28 15:50:28]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 43 - loss: 1.5451 acc: 0.9573 - f1: 0.9573 val_loss: 1.6575 - val_acc: 0.9489 - val_f1: 0.9489
+[2020-12-28 15:50:49]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 44 - loss: 1.5397 acc: 0.9576 - f1: 0.9576 val_loss: 1.6643 - val_acc: 0.9490 - val_f1: 0.9490
+[2020-12-28 15:51:09]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 45 - loss: 1.5676 acc: 0.9573 - f1: 0.9573 val_loss: 1.6631 - val_acc: 0.9496 - val_f1: 0.9496
+[2020-12-28 15:51:30]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 46 - loss: 1.5274 acc: 0.9579 - f1: 0.9579 val_loss: 1.6535 - val_acc: 0.9494 - val_f1: 0.9494
+[2020-12-28 15:51:50]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 47 - loss: 1.5232 acc: 0.9581 - f1: 0.9581 val_loss: 1.6614 - val_acc: 0.9493 - val_f1: 0.9493
+[2020-12-28 15:52:11]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 48 - loss: 1.5280 acc: 0.9578 - f1: 0.9578 val_loss: 1.6703 - val_acc: 0.9494 - val_f1: 0.9494
+[2020-12-28 15:52:32]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 49 - loss: 1.5161 acc: 0.9582 - f1: 0.9582 val_loss: 1.6698 - val_acc: 0.9493 - val_f1: 0.9493
+[2020-12-28 15:52:51]: bilstm_crf trainer.py[line:194] INFO  
+Epoch: 50 - loss: 1.5191 acc: 0.9582 - f1: 0.9582 val_loss: 1.6796 - val_acc: 0.9488 - val_f1: 0.9488
+[2020-12-28 15:53:00]: bilstm_crf test_predict.py[line:19] INFO  seed is 2018
+[2020-12-28 15:53:00]: bilstm_crf test_predict.py[line:26] INFO  starting load test data from disk
+[2020-12-28 15:53:00]: bilstm_crf data_transformer.py[line:123] INFO  sentence to id
+[2020-12-28 15:53:02]: bilstm_crf data_transformer.py[line:173] INFO  initializer embedding matrix
+[2020-12-28 15:53:02]: bilstm_crf data_transformer.py[line:196] INFO   load emebedding weights
+[2020-12-28 15:53:03]: bilstm_crf data_transformer.py[line:208] INFO  Total 6160 word vectors.
+[2020-12-28 15:53:03]: bilstm_crf test_predict.py[line:51] INFO  initializing model
+[2020-12-28 15:53:05]: bilstm_crf test_predict.py[line:59] INFO  predicting model....
+[2020-12-28 15:53:05]: bilstm_crf predicter.py[line:30] INFO  
+Loading checkpoint: pyner/output/checkpoints/bilstm_crf/bilstm_crf-best2.pth ...
+[2020-12-28 15:53:05]: bilstm_crf predicter.py[line:33] INFO  
+Checkpoint 'pyner/output/checkpoints/bilstm_crf/bilstm_crf-best2.pth' loaded
